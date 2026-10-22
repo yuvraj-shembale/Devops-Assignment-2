@@ -1,6 +1,6 @@
-// Introducing an intentional bug to observe a failed workflow run
+// Bug fixed: correctly restored addition operator
 function add(a, b) {
-    return a - b; // incorrect operator: should be a + b
+    return a + b;
 }
 
 module.exports = { add };
