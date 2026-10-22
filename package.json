@@ -1,0 +1,14 @@
+{
+  "name": "ci-actions-demo",
+  "version": "1.0.0",
+  "description": "DevOps Assignment 2 - Continuous Integration Using GitHub Actions",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Yuvraj Shembale",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
